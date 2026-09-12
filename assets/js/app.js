@@ -24,7 +24,7 @@ xhr.onload = function () {
         let result = ``
 
         data.forEach(todos => {
-            result += ` <div class="col-4 mt-4" id="${todos.id}">
+            result += ` <div class="col-md-4 mt-4" id="${todos.id}">
                 <div class="card h-100">
                     <div class="card-body">
                         <h4>${todos.title}</h4>
